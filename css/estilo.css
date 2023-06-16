@@ -1,0 +1,216 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background:beige;
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+#cabecalho {
+    
+    padding:15px;
+    text-align: center;
+    background-color:rgba(148, 188, 143, 0.539);
+       
+}
+
+#logo {
+    
+    color: azure;
+    text-transform: uppercase;
+}
+/*
+#logo h1 {
+    text-align: center;
+}*/
+
+#menu,#logo {
+    padding: 15px;
+}
+
+#menu ul li {
+    display:inline-block;
+   
+}
+
+#menu ul li a {
+    border-radius:15px;
+    padding: 7px 25px;
+ 
+}
+
+#menu ul a {
+text-transform: uppercase;
+color:black;
+padding: 5px;
+text-decoration: none;
+
+}
+
+#menu a:hover {
+    color:yellow;
+    background:#44cade;
+}
+
+#principal {
+    width: 920px;
+    text-align: center;
+    margin: 0px auto;
+   
+}
+
+#conteudo-principal {
+    width: 650px;
+    float: left;
+    margin: 2px 4px;
+    padding-bottom: 10px;
+   
+}
+    
+#conteudo-lateral {
+    width: 220px;
+    float: right;
+    background: white;
+    padding: 10px;
+    margin:10px;
+    
+}
+
+#assuntos {
+    font-size: 0.8em;
+    padding: 10px;
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 12px;
+}
+
+#assuntos p {
+    text-align:left;
+    text-justify:auto;
+    font-size: medium;
+}
+
+#conteudo-principal p {
+    text-align:left;
+    text-justify:auto;
+    font-size: medium;
+
+}
+
+#categorias {
+    font-size: 1em;
+    padding:10px;
+    border-bottom:1px dotted #ccc;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  
+}
+
+#categorias a {
+    text-decoration:none;
+    color:red;
+}
+
+#categorias .horarios li {
+    list-style:none;
+    text-align:left;
+
+}
+
+#contato-tabela {
+    margin: 0px auto;
+    text-align:justify;
+}
+
+#contato-tabela p {
+    margin-top: 10px;
+    margin-bottom:15px;
+}
+
+p {
+    color:black;
+    text-indent:20px;
+    letter-spacing:0.5px;
+}
+
+h1 {
+    color:black;
+    letter-spacing:0.5px;
+    line-height:10px;
+    font-weight: bold;
+    padding: 1px;
+    margin:10px auto;
+}
+
+h2 {
+    color:coral;
+    text-align:center;
+}
+
+h3 {
+    background:lightgrey;
+    color: black;
+    line-height:25px;
+    
+}
+
+h5 {
+    text-align: center;
+    color: black;
+    line-height: 20px;
+    font-size: large;
+}
+
+   
+.img {
+    border: 3.5px solid gray
+}
+   
+
+.primeiro a {
+    background:none;
+}
+
+.branco {
+    color: white;
+   
+}
+
+.baixar {
+    margin-top: 10px;
+    text-align: justify;
+    
+}
+
+
+#home #menu .home a,
+#sobre #menu .sobre a,
+#atividade #menu .atividade a, #contato #menu .contato a, #catequese #menu .catequese a {
+    background: chartreuse;
+
+}
+
+#rodape {
+    clear: both;
+    text-align:left;   
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    background:rgba(148, 188, 143, 0.539);
+    height: 100px;
+}
+
+#rodape ul li {
+    list-style: none;
+}
+ 
+#rodape  h4 {
+    text-align:left;
+    color: black;
+}
+
+#rodape li {
+    color: black;
+}
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario-Catequese</title>
+    <link rel="stylesheet" href="css/estilo-formularios.css">
+</head>
+<body id="form-inscricao">
+    <div id="cabecalho">
+        <div id="logo">
+            <h1>Grupo dos Catequistas</h1>
+        </div>
+
+        <div id="menu">
+            <ul>
+                <li><a href="index.html" >Home</a></li>                
+                <li class="form-inscricao"><a href="formulario-inscricao.html">Inscreva-se</a> </li>
+                <li><a href="catequese.html">Catequese</a></li>
+                
+            </ul>
+           
+        </div>
+
+        
+            <form action="">
+                <fieldset id="Inscrições">
+                    <legend>Dados pessoais </legend>
+                    <label>Nome</label>
+                    <input type="text" size="30" name="nome" maxlength="70" placeholder="Nome Completo" required>
+                    <br>
+
+                    <label>nº do B.I</label>
+                    <input type="text" size="30" name="numero_BI" maxlength="14" placeholder="Digite o seu numero de B.I" required>
+
+                    <br>
+
+                    <label>Data_Nasc</label>
+                    <input type="date" size="20" name="data_nasc" maxlength="8" placeholder="Digite a sua data de nascimento" required>
+                    <br>
+                    <label>Telefone</label>
+                    <input type="tel" size="20" name="telefone" maxlength="12" placeholder="Digite o seu telefone" required>
+                    <br>
+
+                 </fieldset> <br>
+
+                 <fieldset id="Catequese">
+                    <legend>Catequese</legend>
+                    <div class="catequese">
+                    Catequese para sacramento: <br><br>
+                    </div>
+                    <div class="radio">
+                        <input name="Catequese" value="Baptismo/Comunhão" type="radio"> Baptismo/Comunhão<br>
+                    <input name="Catequese" value="Crisma" type="radio"> Crisma <br>
+                    <input name="Catequese" value="Casamento" type="radio">Casamento<br>
+                    </div>
+                       
+                 </fieldset> 
+                 
+                 
+                 <fieldset> 
+                   <legend>Inscrição</legend>                   
+                    <label for="inscrever"> Fazer Inscrição</label>
+                    <input type="submit" name="submit" id="inscrever" value="Sim">   
+                    
+                    
+                    <label for="Cancelar">Cancelar  Inscrição </label>
+                        <input type="reset" name="reset" value="Cancelar">
+                   
+                </fieldset>
+                
+                 
+            </form>
+             
+        <footer>
+           
+        <div class="contatos">
+
+            <div class="endereco">
+
+                <h5>Contactos</h5>
+                    <ul>
+                         <li>Precol-Luanda nº 2443-133</li>
+                         <li>E-mail catequistas@gmail.com</li>
+                         <li>+224 924 022 457</li>
+                         <li>+224 265 469 783</li>                    
+                     </ul>
+            </div>
+
+            <div class="imagem">
+
+                IMAGEM DA PAROQUIA
+            </div>
+        
+        </div>
+   
+    </footer>
+ 
+</body>
+</html>

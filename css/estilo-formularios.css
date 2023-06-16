@@ -1,0 +1,83 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+    background:beige;
+
+}
+
+#menu ul li {
+    display: inline;
+    
+}
+
+#menu ul li a {
+
+    list-style:none;
+    text-decoration:none;
+    padding: 7px 20px;
+    border-radius:10px;
+    line-height: 25px;
+    
+    
+}
+
+#menu a:hover {
+    color: coral;
+    background-color: chartreuse;
+}
+
+h1 {
+    text-align:center;
+    padding: 15px 0px;
+    text-transform: uppercase;
+    font-size:x-large;
+}
+
+h2 a {
+    text-decoration: none;
+    font-size:large;
+    
+}
+
+
+fieldset {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid darkkhaki;
+    background-color:#f8f8f8;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display:block;
+    cursor: pointer;
+}
+
+input.radio, input.checkbox, input.submit {
+    width: auto;
+}
+
+textarea {
+    width: 20em;
+    height: 10em;
+}
+
+#home #menu .home a,
+#sobre #menu .sobre a,
+#atividade #menu .atividade a,
+ #contato #menu .contato a, 
+ #form-contato #menu .form-contato a,
+ #form-inscricao #menu .form-inscricao a,
+  #form-grupo #menu .form-grupo a,
+   #form-arquivo #menu .form-arquivo a 
+   
+   {
+    background: chartreuse;
+
+   }
+ 
+    
+
+

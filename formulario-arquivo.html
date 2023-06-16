@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ept">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario-arquivo</title>
+    <link rel="stylesheet" href="css/estilo-formularios.css">
+</head>
+<body id="form-arquivo">
+
+    <div id="cabecalho">
+        <div id="logo">
+            <h1>Grupo dos Catequistas</h1>
+        </div>
+
+        <div id="menu">
+            <ul>
+                <li><a href="index.html" >Home</a></li>                
+                <li class="form-arquivo"><a href="formulario-arquivo.html">Arquivo dos Membros da Igreja</a> </li>
+                
+            </ul>
+           
+        </div>
+
+        <form action="">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label>Nome</label>
+                <input type="text" name="nome" size="45" maxlength="100" placeholder="digite o seu nome" required>
+                <br>
+                <label>nº do B.I.</label>
+                <input type="text" name="numero_BI" maxlength="14" placeholder="digite o numero do seu B.I" required>
+                <br>
+                <label>Data_Nasc</label>
+                 <input type="date" size="20" name="data_nasc" maxlength="8" placeholder="Digite a sua data de nascimento" required>
+                <br>
+                <label>Telefone</label>
+                <input type="tel" size="20" name="telefone" maxlength="12" placeholder="Digite o seu telefone" required>
+                <br>
+            </fieldset>
+        
+    
+            <fieldset>
+                <legend>Sacramentos</legend>
+            <div class="sacramento">
+                <p>Sacramentos feitos na Paróquia Nossa Senhora Das Graças: <br>
+                Por favor, assinale os sacramentos.</p>
+            </div>
+
+            <fieldset>
+                <legend>Baptismo</legend>
+                <label for="baptismo"></label>
+                <input type="checkbox" name="baptismo" id="baptismo" value="Baptismo"/>Baptismo <input type="date"><br>
+                Nome do Catequista:<input type="text" name="catequista" value="catequista" maxlength="45"> 
+            </fieldset>
+           
+            <fieldset>
+                <legend>Comunhão</legend>
+                <label for="comunhão"></label>
+             <input type="checkbox" name="comunhão" id="comunhão" value="Comunhão"/>Comunhão <input type="date"><br>
+             Nome do Catequista:<input type="text" name="catequista" value="catequista" maxlength="45">
+            </fieldset>
+            
+            <fieldset>
+                <legend>Crisma</legend>
+                <label for="crisma"></label>
+                <input type="checkbox" name="crisma" id="crisma" value="Crisma" /> Crisma <input type="date"><br>
+                Nome do Catequista:<input type="text" name="catequista" value="catequista" maxlength="45">
+            </fieldset>
+            
+            <fieldset>
+                <legend>Casamento</legend>
+                <label for="casamento"></label>
+                <input type="checkbox" name="casamento" id="casamento" value="Casamento"/> Casamento <input type="date"><br>
+                Nome do Catequista:<input type="text" name="catequista" value="catequista" maxlength="45">
+            </fieldset>
+            
+            <fieldset>
+                <label for="arquivar-dados">Arquivar dados</label>  
+            <input type="submit" name="submit" id="arquivar-dados" value="Guardar">
+            <input type="reset" name="reset" value="Limpar">
+            </fieldset>
+            
+                    
+           
+    
+        </form>
+     
+    </div>
+    
+    <footer>
+          
+        <div class="contatos">
+
+            <div class="endereco">
+
+                <h5>Contactos</h5>
+                    <ul>
+                         <li>Precol-Luanda nº 2443-133</li>
+                         <li>E-mail catequistas@gmail.com</li>
+                         <li>+224 924 022 457</li>
+                         <li>+224 265 469 783</li>                    
+                     </ul>
+            </div>
+
+
+            <div class="imagem">
+
+                IMAGEM DA PAROQUIA
+            </div>
+        
+        </div>
+   
+    </footer>
+ 
+</body>
+</html>
